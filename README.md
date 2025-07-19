@@ -25,6 +25,7 @@ The first time you use this template, you must generate the initial **`uv.lock`*
     ```bash
     nix develop .#impure
     uv lock
+    git add uv.lock
     exit
     ```
 4.  **Reload the Environment**: `direnv` will now detect the `uv.lock` file and automatically load the complete development environment.
